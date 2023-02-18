@@ -1,0 +1,23 @@
+ul{
+    list-style:circle outside none;
+}
+
+ol{
+    list-style: upper-roman outside none;
+}
+
+/*table, th{
+    border: 1px solid black;
+}*/
+
+table{
+    border-collapse: collapse;
+}
+
+tr{
+    border: 1px solid black;
+}
+
+.gray{
+    background-color: gray
+}

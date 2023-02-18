@@ -1,0 +1,25 @@
+
+th{
+    border: 1px solid black;
+}
+
+.FirstTable{
+    border-collapse: collapse;
+}
+
+.SecondTable{
+    border-collapse: collapse;
+}
+
+.tr2:nth-child(odd){
+background-color: blue;
+}
+.tr3:nth-child(even):nth-child(even){
+    background-color: aqua;
+}
+.tr4:nth-child(odd){
+    background-color: blueviolet;
+}
+.tr5:nth-child(even){
+    background-color: coral;
+}
