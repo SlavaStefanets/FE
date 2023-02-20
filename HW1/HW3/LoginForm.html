@@ -5,20 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
-
+    
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    
     <style>
         
         .right {
             position: absolute;
             left: 50%;
             padding-top: 50px;
+            background-size: cover;
         }
         .left {
             position: absolute;
             background: url(https://northskyproperty.de/wp-content/uploads/2023/01/thinkstockphotos-469105611-banka-676x507-1.jpg);
             background-position: center;
-            box-shadow: 20px;
+            box-shadow: 200px;
             background-size: cover;
+            margin-top: 4rem;
         }
         .b2 {
             font-size: 10px;
@@ -32,13 +36,28 @@
         .d3 {
             padding-left: 50%;
             padding-top: 600px;
+            text-shadow: rgb(166, 159, 148) 1px 1px;
+        }
+        a {
+            color: rgb(175, 121, 54);
+            font-size: 20px;
         }
         button {
-            color: rgb(73, 100, 234);
+            color: var(--text-color);
             background-color: bisque;
             border-radius: 4px;
         }
-
+        input {
+            background-color: rgb(205, 222, 222);
+            font-size: 16px;
+        }
+        .icon {
+            font-size: 2rem;
+        }
+        :root {
+            --text-color: rgb(211, 205, 143);
+        }
+        
     </style>
 </head>
 <body>
@@ -63,7 +82,7 @@
             </p>
     
             <p>
-                <button>Login</button>
+                <button class="b2">Login</button>
             </p>
             <button class="b2">
                 Forget your password
@@ -80,9 +99,21 @@
     </div>
 
     <div class="d3">
+        <span class="icon">
+            <i class="las la-home"></i>
+        </span>
         <a href="">Home.</a>
+        <span class="icon">
+            <i class="las la-igloo"></i>
+        </span>
         <a href="">Cabinet.</a>
+        <span class="icon">
+            <i class="lab la-product-hunt"></i>
+        </span>
         <a href="">Products.</a>
+        <span class="icon">
+            <i class="las la-id-badge"></i>
+        </span>
         <a href="">Contakt Us.</a>
     </div>
    
