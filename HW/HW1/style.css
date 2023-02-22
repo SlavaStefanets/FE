@@ -1,0 +1,59 @@
+#div_color_Surf{
+    background-color: aqua;
+   border: 2px solid black;
+   margin: 10px 10px 10px 10px;
+   padding-left: 20px;
+   padding-bottom: 20px;
+}
+.img_Surf{
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+}
+
+
+
+.div_color_Mauntains{
+    background-color: darkcyan;
+    border: 2px solid black;
+    margin: 10px 10px 10px 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.img_Mauntains{
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+}
+
+
+
+.div_color_Bike{
+    background-color: bisque;
+    border: 2px solid black;
+    margin: 10px 10px 10px 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.img_Bike{
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.div_logo{
+    border: 2px solid black;
+    margin: 10px 10px 10px 10px;
+    padding-left: 43%;
+
+}
+.img_Logo{
+    width: 16px;
+    height: 16px; 
+    margin-top: 5px;
+}
