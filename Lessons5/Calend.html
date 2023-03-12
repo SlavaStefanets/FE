@@ -20,6 +20,7 @@
 
       body {
         font-family: "Roboto", sans-serif;
+        padding: 200px 260px;
       }
 
       .calendar__header {
@@ -34,12 +35,12 @@
       }
 
       .calendar {
+        border: 1px solid black;
         width: 300px;
       }
 
       .calendar__items {
-        
-        width: 300px;
+        width: 100%
       }
 
       .calendar__item {
@@ -54,12 +55,17 @@
         display: flex;
         flex-wrap: wrap;
         width: calc(100% / 7);
+        margin: 12px 0 12px 0;
       }
       .calendar__cancelapply {
-        margin-left: 100px;
-        font-size: 100px;
+        font-size: 50px;
+        text-align: center;
       }
-      
+      button {
+        font-size: 20px;
+
+      }
+
     </style>
   </head>
   <body>
@@ -81,20 +87,19 @@
             <i class="las la-angle-right"></i>
           </button>
           <div class="calendar__button">
-    
             <i class="las la-angle-double-right"></i>
           </div>
         </div>
       </div>
       <div class="calendar__items">
         <ul class="calendar__item">
-          <li >Mo</li>
-          <li >Tu</li>
-          <li >We</li>
-          <li >Th</li>
-          <li >Fr</li>
-          <li >Sa</li>
-          <li >Su</li>
+          <li>Mo</li>
+          <li>Tu</li>
+          <li>We</li>
+          <li>Th</li>
+          <li>Fr</li>
+          <li>Sa</li>
+          <li>Su</li>
           <li>1</li>
           <li>2</li>
           <li>3</li>
@@ -133,15 +138,11 @@
         </ul>
       </div>
       <div class="calendar__buttons">
-        <button class="calendar__cancelapply">
-           <button>
-               Cancel
-          </button>
+        <div class="calendar__cancelapply">
+          <button>Cancel</button>
 
-           <button>
-               Apply
-           </button>
-        </button>
+          <button>Apply</button>
+        </div>
       </div>
     </div>
   </body>
