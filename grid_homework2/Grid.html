@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+        }
+        html,
+        body,
+        .container {
+            height: 100%;
+        }
+        .sidebar {
+            grid-area: sidebar;
+        }
+        .heder {
+            grid-area: heder;
+        }
+        .news {
+            grid-area: news;
+        }
+        .content {
+            grid-area: content;
+        }
+        .banner {
+            grid-area: banner;
+        }
+        div {
+            background: black;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 150px 1fr 150px;
+            grid-template-rows: repeat(3, 1fr);
+            gap: 1rem;
+            grid-area: 
+            "heder"
+            "sidebar content banner"
+            "sidebar news"
+            ;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+
+        <div class="sidebar"></div>
+        <div class="heder"></div>
+        <div class="news"></div>
+        <div class="content"></div>
+        <div class="banner"></div>
+
+    </main>
+</body>
+</html>
