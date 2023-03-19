@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+        }
+        html,
+        body,
+        .main {
+            height: 100%;
+        }
+      .sidebar {
+        grid-area: sidebar;
+      }
+      .sidebar2 {
+        grid-area: sidebar2;
+      }
+      .content {
+        grid-area: content;
+      }
+      .banner {
+        grid-area: banner;
+      }
+      .news{
+        grid-area: news;
+      }
+      .main {
+        display: grid;
+        grid-template-columns: 150px 1fr 150px;
+        grid-template-rows: 150px 1fr 150px;
+        gap: 1rem;
+        grid-template-areas: 
+        "sidebar content banner"
+        "sidebar content banner"
+        "sidebar2 news news";
+        background-color: aliceblue;
+      }
+      div {
+        background-color: rgb(34, 73, 73);
+      }
+      p {
+        color: azure;
+        font-size: 22px;
+        padding-left: 28px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="main">
+
+      <div class="sidebar">
+        <p>
+            hallo
+        </p>
+      </div>
+      <div class="sidebar2"></div>
+      <div class="content"></div>
+      <div class="banner"></div>
+      <div class="news"></div>
+
+    </div>
+  </body>
+</html>
